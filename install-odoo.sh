@@ -4,8 +4,8 @@ yum install centos-release-scl -y
 yum install git wget ibxslt-devel bzip2-devel openldap-devel libjpeg-devel freetype-devel -y
 sudo yum groupinstall 'Development Tools' -y
 ## Gist url
-export GIST_URL="https://gist.githubusercontent.com/daothanh/2f9be5af944e7cb92c84ceb64c4bc3fd/raw"
-export ODOO_DOMAIN=webcongty.pro
+export GIST_URL="https://gist.githubusercontent.com/hiegmo/a6147c33f06f363c47f005c0397c3892/raw"
+export ODOO_DOMAIN=erp.tranngochieu.name.vn
 export ODOO_PASSWORD=abc@123
 
 export PERL_UPDATE_ENV="perl -p -e 's/\{\{([^}]+)\}\}/defined \$ENV{\$1} ? \$ENV{\$1} : \$&/eg' "
